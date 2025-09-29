@@ -1,0 +1,13 @@
+{
+  "name": "vulnerability-test",
+  "version": "1.0.0",
+  "description": "Test file to trigger vulnerability scanning",
+  "dependencies": {
+    "lodash": "4.17.4",
+    "moment": "2.18.1",
+    "axios": "0.18.0"
+  },
+  "devDependencies": {
+    "mocha": "3.0.0"
+  }
+}
