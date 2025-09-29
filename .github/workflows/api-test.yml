@@ -1,11 +1,11 @@
 name: API Testing Workflow
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main, feature/* ]
   pull_request:
     branches: [ main ]
-  workflow_dispatch:
 
 jobs:
   test:
