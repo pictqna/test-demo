@@ -30,7 +30,7 @@ jobs:
         echo "✅ API endpoints are working!"
         
     - name: Upload results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v5
       with:
         name: test-results
         path: results/
